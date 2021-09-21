@@ -1,0 +1,155 @@
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-color:#d6d3d3 ;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.6rem;
+
+}
+.main-img{
+    background-image: url(./images/main-header.jpg);
+    background-size: cover;
+    height:200px;
+    width: 100%;
+    margin: 0px;
+
+}
+h1{
+    font-family: 'Monoton', cursive;
+    background-color: #f58ea0;
+    color: #dad8d8;
+    text-align: center;
+    
+    margin: 0px;
+    font-size: 8rem;
+    letter-spacing: 6px;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 0 #1ed7f0, 2px -2px 0 #1ed7f0, -2px 2px 0 #4074b5, -2px -2px 0 #1ed7f0, 2px 0px 0 #1ed7f0, 0px 2px 0 #1ed7f0, -2px 0px 0 #1ed7f0, 0px -2px 0 #1ed7f0;
+}
+.fa-cookie-bite{
+    color: aqua;
+}
+.box{
+    width: 75%;
+    margin: 32px auto;
+    background-color: #eeeeee;
+    padding: 24px;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-sizing: border-box;
+
+}
+.unterüberschrift{
+    background-color: #dad8d8;  
+    padding: 12px;
+    font-size: 25px;
+    color: #f112f1;
+    margin: 16px;
+    border-radius: 8px;
+
+}
+.text{
+    padding: 8px; 
+    font-size: 17px;
+    margin: 16px;
+}
+.lollipop{
+    height: 120px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 16px;
+    border:5px solid rgb(252, 255, 80);
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+.candy-floss{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border:solid 5px lightskyblue;
+    float: right;
+    margin-left:16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+}
+.jellybeans{
+    
+   
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border:solid 5px #f58ea0 ;
+    float: left;
+    margin-right:16px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+a{
+    text-decoration: none;
+}
+.link{
+    list-style: none;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #f18799;
+    padding: 8px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+li:hover {
+    background-color: #f18799;
+    padding: 8px 2px;
+}
+
+.link:hover{
+    background-color: yellow;
+    font-weight: 20px;
+}
+.text-2{
+    text-align: center;
+    font-size: 2rem ;
+    font-weight: bolder;
+}
+.Dropme {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/*contact*/
+.contact-img{
+    background-image: url(./images/contact-header.jpeg);
+    background-size: cover;
+    height:200px;
+    width: 100%;
+    margin: 0px;
+
+}
+.contact_Info{
+    
+    margin: 20px;
+}
+.link2{
+    list-style: none;
+    text-decoration: none;
+    background-color: #1ed7f0;
+    margin-left: 20px;
+    padding: 14px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.6rem;
+}
+
+.Back{
+    color:blue;
+    font-weight: bold;
+    margin: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.6rem;
+}
